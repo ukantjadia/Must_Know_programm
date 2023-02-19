@@ -17,3 +17,10 @@ def leapyr(n):
         return True
     return False
 print(leapyr(2000))
+
+# leap year in range
+len1=int(input("enter the initial year"))
+len2=int(input("enter the final year"))
+lst=[]
+[lst.append(int(leapyr(i))) for i in range(len1,len2) ]
+print(lst)
