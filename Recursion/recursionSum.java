@@ -12,8 +12,8 @@ public class recursionSum{
         Scanner sc  = new Scanner(System.in);
         System.out.println("Enter the limit till sum to be done: ");
         int n = sc.nextInt();
-        sumNumber obj = new sumNumber();
-        int sum = obj.sumnNumber(n);
-        System.out.println("The sum of number is : "+sum);
+        // sumNumber obj = new sumNumber();
+        // int sum = obj.sumnNumber(n);
+        System.out.println("The sum of number is : "+sumNumber(n));
     }
 }
