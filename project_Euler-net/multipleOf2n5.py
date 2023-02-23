@@ -1,12 +1,22 @@
+"""multipleOf2n5.py
 
+If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+Find the sum of all the multiples of 3 or 5 below 1000.
+"""
 def solution():
     result =0
     for i in range(1,100):
         if i % 3 == 0 or i % 5 == 0:
             result += i
-
     return result   
-        
+
+
+def solution1(num: int=1000) -> int:
+    return sum([i for i in range(3,num) if i%3 == 0 or i%5 == 0])
+
+
+
+
 
 if __name__ == "__main__": 
-    print(solution())
+    print(solution1())
