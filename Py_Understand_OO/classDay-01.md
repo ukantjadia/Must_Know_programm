@@ -7,6 +7,8 @@
             <br> think of  `__init__` as a initializer and if you are with other language background take it as a constructor
 - method -> adding a functionallity
 - Each method in a class automatically takes instance as a first argument and always called that self
+- calling a method -> calling the method in different way `className.methodName(instanceName)` and `instanceName.methodName()`
+
 
 ### Difference between a class and an instance of a class
 class - class is a blueprint for creating instances for each employee
