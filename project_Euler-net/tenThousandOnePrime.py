@@ -10,5 +10,5 @@ def find(num):
 
 
 if __name__ == '__main__':
-    num=200
+    num=6
     print(find(num))
