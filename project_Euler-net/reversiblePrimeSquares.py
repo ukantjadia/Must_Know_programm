@@ -53,7 +53,7 @@ def is_prime(num):
             return False
             break
     else:
-        return True
+        return i
 
 
 ## reversing number 
