@@ -18,7 +18,10 @@
 - To change or access the class variable, do it with the class name or instance name (self)
     - doing it with the class name will change it for every instance 
     - doing it with instance will only change it for that specific instances 
-
+- method -> don't have any instance or class in its working 
 ### Difference between a class and an instance of a class
 class - class is a blueprint for creating instances for each employee
 instance - creating a user of any class like employee
+
+### Difference between class method, regualr method, static method
+- class method automatticaly pass class(`cls`) as it's first argument, regular method automatically pass first argument instance(`self`) and static method don't have either class nither instance in it's argument list 

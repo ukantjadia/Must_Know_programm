@@ -17,6 +17,15 @@ class Employee:
     def fullname(self):
         return ' {} {}'.format(self.first,self.last) # self is refering to all instances in a class
 
+    @classmethod
+    def set_raise_amt(cls,amt):
+        cls.raise_amt = amt 
+
+    @classmethod
+    def edit(cls,user_str):
+        first,last,pay = user_str.split('-')
+        return cls(first, last, pay)
+
 emp_1 = Employee('Ukant','Jadia',30000)
 emp_2 = Employee('Rohit','Jadia',40000) # Employee objects and class
 
@@ -48,3 +57,7 @@ Employee.raise_amt = 1.10
 emp_1.raise_amt = 2.04
 print(Employee.raise_amt) # accessing class var by class name
 print(emp_1.raise_amt) # accessing class var by instance
+
+user_input = "Rohit-Rao-302990"
+emp_3 = Employee.edit(user_input)
+print(emp_3.email)
