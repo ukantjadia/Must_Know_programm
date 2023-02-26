@@ -73,6 +73,63 @@ def a2():
 a1(a2)() # added parenthesis
 ```
 - This will work absolutely fine
+<br><br>
 
+- Now i want every time i call `a2` I want to call `a1` along with it
+- See below code to get it better
+```python
+def a1(func):
+    def wrapper():
+        print("Started")
+        func() # calling the argument of func a1
+        print("Ended")
+    return wrapper # return the oobject from wrapper func
 
+def a2():
+    print("Welcome")
 
+x = a1(a2)
+x()
+```
+- The last second line called the **Function aliasing**, changing the name of a function and changing its functionality 
+
+---
+##### Decorators
+- And heres our decorator comes in 
+- The last second line of above code can be replace with something nicer that is `@a1`, yes a decorator
+- `@a2` This will write `x = a1(a2)` this line in python for us, means it will automatically gonaa run it 
+--- 
+- Now the issue is with parameters we are passing they may be incerease 
+- the error code is below. See line  
+```python
+def a1(func):
+    def wrapper():
+        print("Started")
+        func() # calling the argument of func a1
+        print("Ended")
+    return wrapper # return the oobject from wrapper func
+@a1
+def a2(a):
+    print(a)
+
+a2("hi")
+``` 
+- see func `a2` is having a parameter but `func()` don't it will generate an error.
+
+#### *args, **kwargs
+- `*args, **kwargs` are the solution to this 
+```python 
+def a1(func):
+    def wrapper(*args,**kwargs):
+        print("Started")
+        func(*args,**kwargs) # calling the argument of func a1
+        print("Ended")
+    return wrapper # return the oobject from wrapper func
+
+@a1
+def a2(a,b):
+    print(a,b)
+
+a2("hi","Wolcome')
+```
+- this will take care of any arguments in any amount
