@@ -8,4 +8,6 @@
 - [ ] [Maximum and Minimum Element in an Array](https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/) in [JAVA](/DSA/que/java/maxAndMinEleInAnAraay.java), [Python](/DSA/que/python/maxAndMinEleInAnAraay.py), [CPP](/DSA/que/cpp/maxAndMinEleInAnAraay.cpp)
 - [ ] [Reverse the Array](https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/)
 - [ ] [Maximum-Subarray](https://leetcode.com/problems/maximum-subarray/)
-- [ ] [](
+- [ ] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+- [ ] [Chocolate Distribution Problem](https://www.geeksforgeeks.org/chocolate-distribution-problem/)
+- [ ] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
