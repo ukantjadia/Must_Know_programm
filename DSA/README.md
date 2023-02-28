@@ -5,8 +5,10 @@
 ### This folder contains the all solved or tried question 
 ### The corresponding question and folder will be added continuously
 
-- [ ] [Maximum and Minimum Element in an Array](https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/) in [JAVA](/DSA/que/java/maxAndMinEleInAnAraay.java), [Python](/DSA/que/python/maxAndMinEleInAnAraay.py), [CPP](/DSA/que/cpp/maxAndMinEleInAnAraay.cpp)
-- [ ] [Reverse the Array](https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/)
+- [x] [Maximum and Minimum Element in an Array](https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/).  Find solutions in [JAVA](/DSA/que/java/maxAndMinEleInAnAraay.java), [Python](/DSA/que/python/maxAndMinEleInAnAraay.py), [CPP](/DSA/que/cpp/maxAndMinEleInAnAraay.cpp)
+
+- [x] [Reverse the Array](https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/).  Find solutions in [JAVA](/DSA/que/java/maxAndMinEleInAnAraay.java), [Python](/DSA/que/python/reverseArrString.py), [CPP](/DSA/que/cpp/reverseArrString.cpp) 
+
 - [ ] [Maximum-Subarray](https://leetcode.com/problems/maximum-subarray/)
 - [ ] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 - [ ] [Chocolate Distribution Problem](https://www.geeksforgeeks.org/chocolate-distribution-problem/)
