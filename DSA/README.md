@@ -14,10 +14,6 @@
 | Maximum-Subarray|  [Link](https://leetcode.com/problems/maximum-subarray/) |        [in Python]() |        [in cpp]() |        [in java]() |
 | Contains Duplicate|  [Link](https://leetcode.com/problems/contains-duplicate/) |        [in Python]() |        [in cpp]() |        [in java]() |
 |Chocolate Distribution Problem |  [Link](https://www.geeksforgeeks.org/chocolate-distribution-problem/) |        [in Python](/que/python/maxAndMinEleInAnAraay.py) |        [in cpp](/que/cpp/maxAndMinEleInAnAraay.cpp) |        [in java]() |
+|Search in Rotated Sorted Array |  [Link](https://www.geeksforgeeks.org/search-in-rotated-sorted-array/) |        [in Python](/que/python/maxAndMinEleInAnAraay.py) |        [in cpp](/que/cpp/maxAndMinEleInAnAraay.cpp) |        [in java]() |
 
 
-
-- [ ] [Maximum-Subarray](https://leetcode.com/problems/maximum-subarray/)
-- [ ] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
-- [ ] [Chocolate Distribution Problem](https://www.geeksforgeeks.org/chocolate-distribution-problem/)
-- [ ] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
