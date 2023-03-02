@@ -5,9 +5,17 @@
 ### This folder contains the all solved or tried question 
 ### The corresponding question and folder will be added continuously
 
-- [x] [Maximum and Minimum Element in an Array](https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/).  Find solutions in [JAVA](/DSA/que/java/maxAndMinEleInAnAraay.java), [Python](/DSA/que/python/maxAndMinEleInAnAraay.py), [CPP](/DSA/que/cpp/maxAndMinEleInAnAraay.cpp)
 
-- [x] [Reverse the Array](https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/).  Find solutions in [JAVA](/DSA/que/java/maxAndMinEleInAnAraay.java), [Python](/DSA/que/python/reverseArrString.py), [CPP](/DSA/que/cpp/reverseArrString.cpp) 
+
+| Problem Description         | Link | Python |  CPP  |JAVA | 
+|--------------|:-----:|:-----------:|:-----------:|:-----------: |
+| Maximum and Minimum Element in an Array |  [Link](https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/) |        [in Python](/que/python/maxAndMinEleInAnAraay.py) |        [in cpp](/que/cpp/maxAndMinEleInAnAraay.cpp) |        [in java]() |
+|Reverse the Array |  [Link](https://www.geeksforgeeks.org/write-a-program-to-recerse-an-array-or-string/) |        [in Python](/que/python/reverseArrString.py) |        [in cpp](/que/cpp/reverseArrString.cpp) |        [in java]() |
+| Maximum-Subarray|  [Link](https://leetcode.com/problems/maximum-subarray/) |        [in Python]() |        [in cpp]() |        [in java]() |
+| Contains Duplicate|  [Link](https://leetcode.com/problems/contains-duplicate/) |        [in Python]() |        [in cpp]() |        [in java]() |
+|Chocolate Distribution Problem |  [Link](https://www.geeksforgeeks.org/chocolate-distribution-problem/) |        [in Python](/que/python/maxAndMinEleInAnAraay.py) |        [in cpp](/que/cpp/maxAndMinEleInAnAraay.cpp) |        [in java]() |
+
+
 
 - [ ] [Maximum-Subarray](https://leetcode.com/problems/maximum-subarray/)
 - [ ] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
