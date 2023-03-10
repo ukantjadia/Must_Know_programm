@@ -60,6 +60,7 @@ class Manager(Employee):
 
 
 
+
 emp_1 = Developer('Ukant','Jadia',30000,'pt')
 emp_2 = Developer('Rohit','Jadia',40000,'java') # Employee objects and class
 
