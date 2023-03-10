@@ -4,8 +4,6 @@ read: classDay-01.md
 base: a application for a company in python for its employee 
 """
 
-# It is easy to cerate a class in python 
-
 class Employee:
     raise_amt = 1.04 # this is the class variable
     def __init__(self,first,last,pay):
@@ -17,6 +15,11 @@ class Employee:
     def fullname(self):
         return ' {} {}'.format(self.first,self.last) # self is refering to all instances in a class
 
+    # @classmetho   d
+    def amt_rais(self):
+        self.pay = int(self.raise_amt*self.pay)
+
+
     @classmethod
     def set_raise_amt(cls,amt):
         cls.raise_amt = amt 
@@ -26,38 +29,45 @@ class Employee:
         first,last,pay = user_str.split('-')
         return cls(first, last, pay)
 
-emp_1 = Employee('Ukant','Jadia',30000)
-emp_2 = Employee('Rohit','Jadia',40000) # Employee objects and class
 
-## to check that they both are unique print them
-# print(f'{emp_1}\n{emp_2}')
-
-
-## Instance variable 
-## this is manually without using class
-## It will be unique to each instance of a class
-# emp_1.first = 'Ukant'
-# emp_1.last = 'Jadia'
-# emp_1.email = 'Ukant.Jadia@company.com'
-# emp_1.pay = 300000
+class Developer(Employee):
+    raise_amt = 1.10
+    def __init__(self,first,last,pay,pro_lang):
+        super().__init__(first, last, pay)
+        self.pro_lang = pro_lang
 
 
-# print(emp_1.fullname()) # calling a method using instance 
-# print(Employee.fullname(emp_1)) # calling a method using class name
+class Manager(Employee):
+    def __init__(self, first, last, pay,employees=None):
+        super().__init__(first, last, pay)
+        if employees is None:
+            self.employees = []
+        else:
+            self.employees = employees
+    
+    def add_emp(self,emp):
+        if emp not in self.employees:
+            self.employees.append(emp)
+    
 
-# print(f'{emp_1.email}\n{emp_2.email}')
+    def rem_emp(self,emp):
+        if emp in self.employees:
+            self.employees.remove(emp)
 
-# print(Employee.raise_amt) # accessing class var by class name
-# print(emp_1.raise_amt) # accessing class var by instance
-## displaying the namespace of class and instance
-print(Employee.__dict__)
-print(emp_1.__dict__)
+    def dis_emp(self):
+        for emp in self.employees:
+            print('-->', emp.fullname())
 
-Employee.raise_amt = 1.10
-emp_1.raise_amt = 2.04
-print(Employee.raise_amt) # accessing class var by class name
-print(emp_1.raise_amt) # accessing class var by instance
 
-user_input = "Rohit-Rao-302990"
-emp_3 = Employee.edit(user_input)
-print(emp_3.email)
+
+emp_1 = Developer('Ukant','Jadia',30000,'pt')
+emp_2 = Developer('Rohit','Jadia',40000,'java') # Employee objects and class
+
+mang_1 = Manager('sue', 'lott', 3000, [emp_1])
+
+mang_1.add_emp(emp_2)
+print(mang_1.dis_emp())
+# user_input = "Rohit-Rao-302990"
+# emp_3 = Employee.edit(user_input)
+# print(emp_2.email)
+# print(emp_2.pro_langj)
